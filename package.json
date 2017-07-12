@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "gulp webserver",
+    "serve": "gulp serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,8 @@
   "homepage": "https://github.com/veliohart/example-gulp#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-server-livereload": "^1.9.2"
+    "gulp-less": "^3.3.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-watch": "^4.3.11"
   }
 }

@@ -8,6 +8,7 @@ return gulp.src(path.resolve(__dirname, '../src/less') + '/**/*.less')
     .pipe(less({
         paths: [path.join(__dirname, 'less', 'includes')]
     }))
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./dist/css'))
+    .pipe(gulp.watch(path.resolve(__dirname, '/src/less') + '/**/*', ['less']));
 })
 ;
