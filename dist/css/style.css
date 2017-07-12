@@ -1,0 +1,22 @@
+body {
+    background: #e3e3e3;
+}
+
+.sider {
+    float: left;
+    font-size: 0;
+    background: green;
+}
+
+.sider span {
+    display: inline-block;
+    width: 50px;
+    font-size: 1rem;
+    background: #fff;
+    text-align: center;
+    margin: 0 10px 5px 0;
+}
+
+.clerafix {
+    clear: both;
+}
